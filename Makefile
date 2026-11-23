@@ -1,6 +1,7 @@
 make:
 	cargo build --release
-	mv --force ./target/release/crab2-simulator ./crab2
+	rm ./crab2
+	mv ./target/release/crab2-simulator ./crab2
 
 clear:
 	mv ./crab2 ./crab2dontdelete
