@@ -4,3 +4,6 @@ make:
 
 clear:
 	git clean -Xfd -e ./crab2
+
+fullclear:
+	git clean -Xfd
